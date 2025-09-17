@@ -1,0 +1,139 @@
+/*common start*/
+body{
+    margin: 0;
+    padding: 0;
+}
+/*common end*/
+/*header start*/
+header{
+    padding: 10px 0;
+    border-bottom: 3px solid #ECEEF2
+}
+.container{
+    width: 90%;
+ /* border: 1px solid black;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+width: 13%;
+/*border: 1px solid black;*/
+float: left;
+
+}
+logo img{
+width: 100%;
+}
+.menu{
+    margin-top: 3px;
+width: 45%;
+/*border: 1px solid black;*/
+float: right;
+
+}
+.menu ul{
+overflow: hidden;
+float: right;
+}
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #182756;
+    text-decoration: none;
+    margin: 0px 20px;
+    display: inline-block;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+    padding: 60px 0;
+   
+}
+.container2{
+    width: 55%;
+    margin: 0 auto;
+    
+}
+.b_content{
+    font-family: sans-serif;
+    text-align: center;
+}
+.b_content h1{
+    margin: 0;
+     font-size: 45px;
+    font-weight: 700;
+    color: #0F2656;
+}
+.b_content h2{
+    margin: 10px 0;
+    font-size: 45px;
+    font-weight: 700;
+    color: #008AFF;
+}
+.b_content p{
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F2656;
+    line-height: 23px;
+    word-spacing: 1px;
+}
+.b_img{
+    margin: 0 auto;
+    width: 75%;
+    
+}
+.b_img img{
+    width: 100%;
+}
+/*banner end*/
+/*success start*/
+.success{}
+.s_content{
+    overflow: hidden;
+    font-family: sans-serif;
+}
+.s_left{
+    width: 40%;
+    
+    float: left;
+font-family: sans-serif;    text-align: right;
+}
+.s_left h2{
+    
+    font-size: 40px;
+    font-weight: 700;
+    color: #F15767;
+    margin: 0 0 10px;
+}
+.s_left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F2656;
+    margin: 0;
+    line-height: 25px;
+    word-spacing: 1px;
+}
+.s_right{
+    width: 35%;
+    
+    float: right;
+}
+.s_right h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #0F2656;
+    line-height: 50px;
+    margin: 0;
+}
+/*success end*/
